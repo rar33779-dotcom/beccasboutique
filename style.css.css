@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 1px;
+	padding: 5px;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Momo Signature", cursive;
+}
+
+.navbar ul {
+	list-style-type: none;
+	background-color: floralwhite;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar a {
+	color: deeppink;
+	text-decoration: none;
+	padding: 30px;
+	display: ruby-text-container;
+	text-align: center;
+}
+
+.navbar a:hover {
+	background-color: lavender;
+}
+
+.navbar li {
+	float: left;
+}
+
+#content-area {
+	display: flex;
+	justify-content: center;
+}
+
+main {
+	margin: 10px 20px;
+	max-width: 1200px;
+	
+}
+
+#headline {
+	margin-bottom: 30px;
+}
+
+.bodycopy {
+	font-family: "Oswald", sans-serif; 
+	line-height: 1.6;
+	margin-bottom: 12px;
+}
+	 
+div {
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+img {
+	width: 30%;
+}
+
+.button {
+	display: block;
+	margin: 0;
+	text-align: center;
+}
+
+#headline {
+	color: deeppink;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+@media {
+	max-width: 768px;
+}
